@@ -29,11 +29,21 @@
 
         grave {
             bindings = <&kp GRAVE>;
-            key-positions = <23 22>;
+            key-positions = <21 22>;
         };
 
         question {
             bindings = <&kp QUESTION>;
+            key-positions = <34 33>;
+        };
+
+        tidle {
+            bindings = <&kp TILDE>;
+            key-positions = <35 12>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
             key-positions = <35 34>;
         };
     };
